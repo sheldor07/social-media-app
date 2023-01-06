@@ -41,3 +41,7 @@ function getAnonUsername(){
     const obj2=OBJECTS2[Math.floor(Math.random()*10)]
     return `${adj} ${obj1}-${obj2}`
 }
+
+module.exports={
+    getAnonUsername
+}
