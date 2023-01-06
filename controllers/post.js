@@ -24,7 +24,7 @@ async function task(){
     console.log(await createNewPost(1,"this is a sample post","this is some sample text"))
 }
 task()*/
-async function task(){
+/*async function task(){
     const posts = await showAllPosts()
     for (post of posts)
     {
@@ -32,4 +32,4 @@ async function task(){
     }
     
 }
-task()
+task()*/
