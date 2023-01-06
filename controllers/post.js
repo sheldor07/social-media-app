@@ -1,5 +1,4 @@
-const {Posts} = require('../db/models.js')
-const {Users} = require('../db/models.js')
+const {Posts, Users} = require('../db/models')
 
 
 async function createNewPost(userId, title, body){
@@ -13,11 +12,15 @@ async function createNewPost(userId, title, body){
 
 // expected to be called like showAllPosts({username:""})
 // expected to be called like showAllPosts({title:""})
-async function showAllPosts(query){
+async function findAllPosts(query){
     // TODO : handle query params
     const posts = await Posts.findAll({include:[Users]} )//because of relationship defined in models between POsts and USers
     
     return posts
+}
+module.exports = {
+    createNewPosts,
+    findAllPosts,
 }
 /* test code
 async function task(){

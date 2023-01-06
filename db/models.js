@@ -13,7 +13,7 @@ const COL_ID_DEF = {
     primaryKey: true
 }
 const COL_USERNAME_DEF = {
-    type: Sequelize.DataTypes.STRING(30),
+    type: Sequelize.DataTypes.STRING(50),
     unique: true,
     allowNull: false
 }

@@ -9,8 +9,17 @@ async function createAnonUser(){
     return user
 }
 
+async function getUserbyId(id){
+    return await Users.findOne({where:{id}})
+}   
+async function getUserbyUsername(username){
+    return await Users.findOne({where:{username}})
+}   
+
 module.exports = {
-    createAnonUser
+    createAnonUser,
+    getUserbyId,
+    getUserbyUsername
 }
 /*async function task(){
    console.log(await createAnonUser())
