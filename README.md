@@ -55,9 +55,15 @@ src
 
 ### `posts`
  1. `GET /posts`
- Gets all posts
+ Gets all posts by ever user
  2. `POST /posts`
- Creates a post with a given id, title and body
+ Creates a new post with a body. Required fields in body -
+ ```
+ userId = 
+ title =
+ body = 
+ ```
+ 
 
  
 
