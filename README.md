@@ -44,5 +44,20 @@ src
 3. **add a comment**
 
 
+## API Documentation
+ ### `users`
+ 1. `POST /users`
+ Creates a new user with a random username and id
+ 2. `Get /users/{userid}`
+ Gets a user with a given id
+ 3. `Get /users/{username}`
+ Gets a user with a given username
 
+### `posts`
+ 1. `GET /posts`
+ Gets all posts
+ 2. `POST /posts`
+ Creates a post with a given id, title and body
+
+ 
 
