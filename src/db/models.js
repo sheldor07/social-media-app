@@ -13,12 +13,12 @@ const COL_ID_DEF = {
     primaryKey: true
 }
 const COL_USERNAME_DEF = {
-    type: Sequelize.DataTypes.STRING(50),
+    type: Sequelize.DataTypes.STRING(100),
     unique: true,
     allowNull: false
 }
 const COL_TITLE_DEF = {
-    type: Sequelize.DataTypes.STRING(140),
+    type: Sequelize.DataTypes.STRING(200),
     allowNull: false
 }
 

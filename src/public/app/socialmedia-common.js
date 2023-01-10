@@ -1,18 +1,19 @@
 //building in components but on jquery
 $(()=>{
     
-    $('#navbar').load('./components/navbar.html',loginIfNeeded)
+    $('#navbar').load('./components/navbar.html',loginIfNeeded) //callback cos otherwise it may get called before navbar is loaded
+    $('#content').load('./components/all-posts.html')
     $('#footer').load('./components/footer.html')
+
 
      
 })
 
 function loginIfNeeded(){
     function updateUserNameInNav(user){
-        $('.nav-username').text(user)
+        $('#nav-username').text(user)
     }
-    let currentUser = window.localStorage.user ? JSON.parse(window.localStorage.user) : null;
-
+    window.currentUser = window.localStorage.user ? JSON.parse(window.localStorage.user) : null;
     if(!currentUser){
         $.post('/api/users',{},(user) =>{
             if(user)
@@ -29,3 +30,4 @@ function loginIfNeeded(){
     }
     updateUserNameInNav(currentUser.username)
 }
+
