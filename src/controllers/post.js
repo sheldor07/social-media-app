@@ -3,9 +3,9 @@ const {Posts, Users} = require('../db/models')
 
 async function createNewPost(userId, title, body){
     const post = await Posts.create({
-        title:title,
-        body:body,
-        id:userId,
+        title,
+        body,
+        userId,
     })
     return post
 }
@@ -22,8 +22,8 @@ module.exports = {
     createNewPost,
     findAllPosts,
 }
-/* test code
-async function task(){
-    console.log(await createNewPost(1,"this is a sample post","this is some sample text"))
+//stest code
+/*async function task(){
+    (await createNewPost(1,"this is a sample post","this is some sample text"))
 }
 task()*/

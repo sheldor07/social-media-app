@@ -8,7 +8,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use('/api/users', usersRoute)
 app.use('/api/posts', postsRoute)
-app.use('/',express.static(__dirname + '/public'))
+app.use('/',express.static(__dirname + '/src/public'))
 
 
 db.sync({force: true})
