@@ -43,7 +43,24 @@ src
 2. **show all comments(under a post)**
 3. **add a comment**
 
-
+### Front-end (Client-Side Code)
+```shell
+├── app         # front-end code we're writing
+│   └── socialmedia-common.js
+├── components   # our html snippets
+│   └── navbar.html
+├── css             # css libraries we're using
+│   └── bootstrap.css
+├── fonts           # fonts we're using
+│   ├── Muli-Italic.woff2
+│   ├── Muli.woff2
+│   └── muli.css
+├── index.html       # first/home page
+└── js               # js libaries we're using   
+    ├── bootstrap.js
+    ├── jquery-3.4.1.js
+    └── popper.js
+```
 ## API Documentation
  ### `users`
  1. `POST /users`
