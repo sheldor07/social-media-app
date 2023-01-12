@@ -1,12 +1,20 @@
 <div class="container my-2 ">
-    <h1 class="display-4 text-center">New Post</h1>
+  <h1 class="display-4 text-center">New Post</h1>
 </div>
-<div class="row" id="post-form">
+<form id="post-form">
+  <div class="mb-3 mx-auto" style="width:500px;">
+    <label for="title" class="form-label">Title</label>
+    <input type="text" class="form-control" id="post-title" placeholder="What's your story?">
+  </div>
+  <div class="mb-3 mx-auto" style="width:500px;"">
+  <label for=" body" class="form-label">Body</label>
+    <textarea class="form-control" id="post-body" rows="5"></textarea>
+  </div>
+  <div class="text-center">
+    <button type="button" class="btn btn-primary" id="btn-submit">Submit</button>
+  </div>
+</form>
 
-</div>
-
-</div>
 <script src="/app/write-post.js"></script>
 <script>
-  loadPosts()
 </script>
