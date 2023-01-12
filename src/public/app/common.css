@@ -1,9 +1,19 @@
-#footer{
+#footer {
 
-    position:sticky;
+    position: sticky;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
-    bottom:0px;
-    z-index:-1;
+    bottom: 0px;
+    z-index: -1;
 }
 
+#dog-photo {
+    margin: auto;
+    display: block;
+    border-radius: 40px;
+    width: 50%;
+
+}
+#dog-photo-div{
+    margin:auto;
+}
