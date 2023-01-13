@@ -3,7 +3,7 @@
 mySQL commands to create user and database
 ```
 create database socialmediadb;
-create user socialuser identified by 'cbsocialpass';
+create user socialuser identified by 'socialpass';
 grant all privileges on socialmediadb.* to socialuser;
 flush privileges;
 
