@@ -1,4 +1,4 @@
-# social-media-app
+# scribble: the social-media-app
 ## Database Creation
 mySQL commands to create user and database
 ```
