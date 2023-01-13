@@ -24,17 +24,23 @@ src
 
 1. **create users**
     This will create users with a random username
+<img width="1680" alt="Screenshot 2023-01-13 at 4 49 37 PM" src="https://user-images.githubusercontent.com/50955708/212278816-ff890e36-ea24-4745-9362-41adee215843.png">
 
 ### Posts
 1. **create post**
     This will create posts with required fields are
     -title
-    -username 
+    -username
     -body
+     <img width="1680" alt="Screenshot 2023-01-13 at 4 50 28 PM" src="https://user-images.githubusercontent.com/50955708/212279482-3529ad44-daf6-422a-85d3-85520758becd.png">
+<img width="1680" alt="Screenshot 2023-01-13 at 4 50 21 PM" src="https://user-images.githubusercontent.com/50955708/212279503-26d0c864-1f0c-4146-9ccd-0d641bfa7f96.png">
+<img width="1680" alt="Screenshot 2023-01-13 at 4 49 44 PM" src="https://user-images.githubusercontent.com/50955708/212279510-19f75e37-fa02-46a9-80e2-fed2fa7782da.png">
 2. **show all posts**
     Lists all existing posts, we should have filtering support
     -filter by user
     -filter by query contained in title(search by title)
+    <img width="1680" alt="Screenshot 2023-01-13 at 4 49 08 PM" src="https://user-images.githubusercontent.com/50955708/212279317-d884ea9a-58cd-4b4b-b135-744c4b85b081.png">
+    
 3. **edit posts** `TBD`
 3. **delete posts** `TBD`
 
