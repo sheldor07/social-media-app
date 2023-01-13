@@ -6,7 +6,6 @@ $(() => {
     let btnSubmit = $('#btn-submit')
     btnSubmit.click(() => {
         $.post('/api/posts', {
-                id:null,
                 title: postTitle.value,
                 body: postBody.value,
                 userId:window.currentUser.id,
