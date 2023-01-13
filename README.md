@@ -32,9 +32,11 @@ src
     -title
     -username
     -body
+    <img width="1680" alt="Screenshot 2023-01-13 at 4 49 44 PM" src="https://user-images.githubusercontent.com/50955708/212279510-19f75e37-fa02-46a9-80e2-fed2fa7782da.png">
+    <img width="1680" alt="Screenshot 2023-01-13 at 4 50 21 PM" src="https://user-images.githubusercontent.com/50955708/212279503-26d0c864-1f0c-4146-9ccd-0d641bfa7f96.png">
      <img width="1680" alt="Screenshot 2023-01-13 at 4 50 28 PM" src="https://user-images.githubusercontent.com/50955708/212279482-3529ad44-daf6-422a-85d3-85520758becd.png">
-<img width="1680" alt="Screenshot 2023-01-13 at 4 50 21 PM" src="https://user-images.githubusercontent.com/50955708/212279503-26d0c864-1f0c-4146-9ccd-0d641bfa7f96.png">
-<img width="1680" alt="Screenshot 2023-01-13 at 4 49 44 PM" src="https://user-images.githubusercontent.com/50955708/212279510-19f75e37-fa02-46a9-80e2-fed2fa7782da.png">
+
+
 2. **show all posts**
     Lists all existing posts, we should have filtering support
     -filter by user
