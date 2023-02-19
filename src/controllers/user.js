@@ -1,5 +1,5 @@
 const { getAnonUsername } = require('../utils/username.js')
-const {Users} = require('../db/models.js')
+
 const username = require('../utils/username.js')
 
 async function createAnonUser(){

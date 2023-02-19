@@ -2,9 +2,10 @@ const Sequelize = require('sequelize')
 
 const db = new Sequelize({
     dialect: 'mysql',
-    database: 'socialmediadb',
-    username: 'socialuser',
-    password: 'socialpass',
+    database: 'heroku_0044ada53754117',
+    username: 'bc62d13b0033a7',
+    password: 'f4b932d2',
+    host:'eu-cdbr-west-03.cleardb.net',
 })
 
 const COL_ID_DEF = {
